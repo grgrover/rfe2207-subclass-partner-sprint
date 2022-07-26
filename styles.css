@@ -1,0 +1,65 @@
+body, html{
+  height:100%;
+}
+body{
+  background-color: black;
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+  background-image: url('https://media.istockphoto.com/vectors/light-mosaic-colorful-abstract-background-with-mosaic-vector-vector-id1044874492?k=20&m=1044874492&s=612x612&w=0&h=P-7lpL31ak3O7-GphtF2OfSSGt_e_nadFVqb4zZcO_I=');
+  background-size: cover;
+  overflow: hidden;
+}
+body, a:link, a:visited, a:active{
+  background-color: black;
+  color: white;
+}
+.title, .addDancerButton, .lineUpButton, .interactButton {
+  padding:5px 12px;
+  float:right;
+  clear: both;
+  font-family: 'Mukta', sans-serif;
+}
+.topbar{
+  height:32px;
+  background-color: black;
+  clear: both;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+  position:absolute;
+  font-size: 75px;
+}
+
+.kpopDancer, .cpopDancer {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  font-size: 50px;
+  animation: rotate 0.5s ease-in infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.jpopDancer{
+ width: 100px;
+ height: 100px;
+ border-radius: 20px;
+ background-image: url("https://www.animesenpai.net/wp-content/uploads/2021/08/images_560.jpg");
+ background-size: cover;
+
+ animation: rotate 3s ease-in 5s reverse;
+
+  position: absolute;
+}
